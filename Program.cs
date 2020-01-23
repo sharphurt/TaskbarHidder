@@ -26,7 +26,6 @@ namespace TaskBarHidder
                 MessageBox.Show("Application is already running", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 Application.Exit();
             }
-
             WinAPIFunctions.UnhookWindowsHookEx(KeyboardHook._hookId);
         }
     }
