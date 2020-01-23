@@ -1,0 +1,4 @@
+#Key codes for hidding taskbar
++FirstKeyCode 49
++SecondKeyCode 50
++Autorun False

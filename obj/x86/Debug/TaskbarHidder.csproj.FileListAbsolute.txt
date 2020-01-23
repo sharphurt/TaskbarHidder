@@ -1,0 +1,7 @@
+D:\Рабочий стол\TaskbarHidder\bin\Debug\TaskbarHidder.exe
+D:\Рабочий стол\TaskbarHidder\bin\Debug\TaskbarHidder.pdb
+D:\Рабочий стол\TaskbarHidder\obj\x86\Debug\TaskbarHidder.csprojResolveAssemblyReference.cache
+D:\Рабочий стол\TaskbarHidder\obj\x86\Debug\TaskbarHidder.csproj.GenerateResource.Cache
+D:\Рабочий стол\TaskbarHidder\obj\x86\Debug\TaskbarHidder.exe
+D:\Рабочий стол\TaskbarHidder\obj\x86\Debug\TaskbarHidder.pdb
+D:\Рабочий стол\TaskbarHidder\obj\x86\Debug\TaskbarHidder.Properties.Resources.resources

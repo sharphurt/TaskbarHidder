@@ -1,0 +1,17 @@
+C:\Users\Swarog\documents\visual studio 2010\Projects\WorkWithTray\PopUpForTray\bin\Debug\PopUpForTray.exe
+C:\Users\Swarog\documents\visual studio 2010\Projects\WorkWithTray\PopUpForTray\bin\Debug\PopUpForTray.pdb
+C:\Users\Swarog\documents\visual studio 2010\Projects\WorkWithTray\PopUpForTray\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Swarog\documents\visual studio 2010\Projects\WorkWithTray\PopUpForTray\obj\x86\Debug\rosskyru.FormForTray.resources
+C:\Users\Swarog\documents\visual studio 2010\Projects\WorkWithTray\PopUpForTray\obj\x86\Debug\rosskyru.Properties.Resources.resources
+C:\Users\Swarog\documents\visual studio 2010\Projects\WorkWithTray\PopUpForTray\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Swarog\documents\visual studio 2010\Projects\WorkWithTray\PopUpForTray\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Swarog\documents\visual studio 2010\Projects\WorkWithTray\PopUpForTray\obj\x86\Debug\PopUpForTray.exe
+C:\Users\Swarog\documents\visual studio 2010\Projects\WorkWithTray\PopUpForTray\obj\x86\Debug\PopUpForTray.pdb
+D:\Рабочий стол\[Rossky.ru]PopUpForTray\bin\Debug\PopUpForTray.exe
+D:\Рабочий стол\[Rossky.ru]PopUpForTray\bin\Debug\PopUpForTray.pdb
+D:\Рабочий стол\[Rossky.ru]PopUpForTray\obj\x86\Debug\PopUpForTray.csprojResolveAssemblyReference.cache
+D:\Рабочий стол\[Rossky.ru]PopUpForTray\obj\x86\Debug\rosskyru.FormForTray.resources
+D:\Рабочий стол\[Rossky.ru]PopUpForTray\obj\x86\Debug\rosskyru.Properties.Resources.resources
+D:\Рабочий стол\[Rossky.ru]PopUpForTray\obj\x86\Debug\PopUpForTray.csproj.GenerateResource.Cache
+D:\Рабочий стол\[Rossky.ru]PopUpForTray\obj\x86\Debug\PopUpForTray.exe
+D:\Рабочий стол\[Rossky.ru]PopUpForTray\obj\x86\Debug\PopUpForTray.pdb
