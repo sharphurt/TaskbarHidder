@@ -39,7 +39,7 @@ namespace TaskBarHidder
             Name = "TaskbarHidder";
             Text = "Taskbar Hidder App";
             MaximizeBox = false;
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Icon = new Icon("tbH.ico");
             WindowState = FormWindowState.Minimized;
         }
@@ -182,6 +182,7 @@ namespace TaskBarHidder
             KeyButtons[1].Click += FormEventHandlers.ChangeKey2ButtonClick;
             SaveChangesButton.Click += FormEventHandlers.SaveChangesButtonClick;
             AutorunCheckBox.CheckStateChanged += FormEventHandlers.AutorunCheckboxChanged;
+            FormClosing += (sender, args) => FormEventHandlers.FormClosing(sender, args);
         }
     }
 }

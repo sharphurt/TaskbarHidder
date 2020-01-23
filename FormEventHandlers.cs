@@ -100,5 +100,12 @@ namespace TaskBarHidder
                 key.DeleteValue("TaskBarHidder");
             TaskBarHidder.UpdateConfigFile();
         }
+
+        public static void FormClosing(object sender, FormClosingEventArgs e)
+        {
+            _oldFormState = _form.WindowState;
+            _form.WindowState = FormWindowState.Minimized;
+            e.Cancel = true;
+        }
     }
 }
