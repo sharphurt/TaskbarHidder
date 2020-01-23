@@ -4,6 +4,8 @@ using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using System.IO;
+using System.Security.Principal;
+using System.Threading;
 
 namespace TaskBarHidder
 {
@@ -121,6 +123,17 @@ namespace TaskBarHidder
                 SetTaskBarState(AppBarStates.AlwaysOnTop);
             else
                 SetTaskBarState(AppBarStates.AutoHide);
+        }
+
+        public static bool CheckForRunningCopies()
+        {
+            bool isOk;
+            const string strMyAppName = "TaskBarHidder";
+            var strMutex = WindowsIdentity.GetCurrent().Name;
+            strMutex = strMutex.Split('\\')[1];
+            strMutex += strMyAppName;
+            var m = new Mutex(true, strMutex, out isOk);
+            return isOk;
         }
     }
 }

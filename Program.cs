@@ -19,7 +19,13 @@ namespace TaskBarHidder
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TaskBarHidderForm());
+            if (TaskBarHidder.CheckForRunningCopies())
+                Application.Run(new TaskBarHidderForm());
+            else
+            {
+                MessageBox.Show("Application is already running", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Application.Exit();
+            }
 
             WinAPIFunctions.UnhookWindowsHookEx(KeyboardHook._hookId);
         }

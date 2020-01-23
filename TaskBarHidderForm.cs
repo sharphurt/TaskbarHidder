@@ -43,7 +43,7 @@ namespace TaskBarHidder
             Icon = new Icon("tbH.ico");
             WindowState = FormWindowState.Minimized;
         }
-
+        
         private void InitializeComponents()
         {
             components = new Container();
